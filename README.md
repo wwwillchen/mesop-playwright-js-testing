@@ -1,12 +1,9 @@
-# Mesop Playwright JS Testing Example
+# Mesop Playwright Testing Example
 
 ## Setup
 
 - Install mesop: `pip install mesop`
 - [Install node.js](https://nodejs.org/en/download/package-manager)
-- [Install playwright](https://playwright.dev/docs/intro): `npm init playwright@latest`
-    - We recommend using TypeScript for better IDE support.
-
 
 ## Run app
 
@@ -19,6 +16,8 @@ mesop app.py
 ```sh
 npx playwright test
 ```
+
+- This will ask you to [install playwright](https://playwright.dev/docs/intro) the first time.
 
 ## Writing a test
 
